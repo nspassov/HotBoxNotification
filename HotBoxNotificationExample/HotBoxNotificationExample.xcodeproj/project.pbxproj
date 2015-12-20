@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011A31811C26CC70009B6700 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A31801C26CC70009B6700 /* AppDelegate.swift */; };
+		011A31831C26CC70009B6700 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A31821C26CC70009B6700 /* ViewController.swift */; };
+		011A31861C26CC70009B6700 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011A31841C26CC70009B6700 /* Main.storyboard */; };
+		011A31881C26CC70009B6700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011A31871C26CC70009B6700 /* Assets.xcassets */; };
+		011A318B1C26CC70009B6700 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011A31891C26CC70009B6700 /* LaunchScreen.storyboard */; };
+		011A31961C26CC70009B6700 /* HotBoxNotificationExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A31951C26CC70009B6700 /* HotBoxNotificationExampleTests.swift */; };
+		011A31A11C26CC70009B6700 /* HotBoxNotificationExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A31A01C26CC70009B6700 /* HotBoxNotificationExampleUITests.swift */; };
+		7775A8ADA55979FF7E970336 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 916B78584B530A89D4857AFB /* Pods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		011A31921C26CC70009B6700 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 011A31751C26CC70009B6700 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 011A317C1C26CC70009B6700;
+			remoteInfo = HotBoxNotificationExample;
+		};
+		011A319D1C26CC70009B6700 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 011A31751C26CC70009B6700 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 011A317C1C26CC70009B6700;
+			remoteInfo = HotBoxNotificationExample;
+		};
+		011A31B41C26CD25009B6700 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 011A31AF1C26CD25009B6700 /* HotBoxNotification.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 011A31101C26ADE2009B6700;
+			remoteInfo = HotBoxNotification;
+		};
+		011A31B61C26CD25009B6700 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 011A31AF1C26CD25009B6700 /* HotBoxNotification.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 011A311A1C26ADE2009B6700;
+			remoteInfo = HotBoxNotificationTests;
+		};
+		011A31BB1C26CF91009B6700 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 011A31AF1C26CD25009B6700 /* HotBoxNotification.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 011A310F1C26ADE2009B6700;
+			remoteInfo = HotBoxNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011A317D1C26CC70009B6700 /* HotBoxNotificationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotBoxNotificationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		011A31801C26CC70009B6700 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		011A31821C26CC70009B6700 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		011A31851C26CC70009B6700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		011A31871C26CC70009B6700 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		011A318A1C26CC70009B6700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		011A318C1C26CC70009B6700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		011A31911C26CC70009B6700 /* HotBoxNotificationExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotBoxNotificationExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		011A31951C26CC70009B6700 /* HotBoxNotificationExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotBoxNotificationExampleTests.swift; sourceTree = "<group>"; };
+		011A31971C26CC70009B6700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		011A319C1C26CC70009B6700 /* HotBoxNotificationExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotBoxNotificationExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		011A31A01C26CC70009B6700 /* HotBoxNotificationExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotBoxNotificationExampleUITests.swift; sourceTree = "<group>"; };
+		011A31A21C26CC70009B6700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		011A31AF1C26CD25009B6700 /* HotBoxNotification.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HotBoxNotification.xcodeproj; path = ../HotBoxNotification/HotBoxNotification.xcodeproj; sourceTree = "<group>"; };
+		3B62F3F2FB8CA96E0F08EFB6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8337ABD073AF7782D7AD34E9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		916B78584B530A89D4857AFB /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		011A317A1C26CC70009B6700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7775A8ADA55979FF7E970336 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011A318E1C26CC70009B6700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011A31991C26CC70009B6700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		011A31741C26CC70009B6700 = {
+			isa = PBXGroup;
+			children = (
+				011A31AE1C26CC8C009B6700 /* Frameworks */,
+				011A317F1C26CC70009B6700 /* HotBoxNotificationExample */,
+				011A31941C26CC70009B6700 /* HotBoxNotificationExampleTests */,
+				011A319F1C26CC70009B6700 /* HotBoxNotificationExampleUITests */,
+				011A317E1C26CC70009B6700 /* Products */,
+				BD9C72EDB46AD24A0C71F8C3 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		011A317E1C26CC70009B6700 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				011A317D1C26CC70009B6700 /* HotBoxNotificationExample.app */,
+				011A31911C26CC70009B6700 /* HotBoxNotificationExampleTests.xctest */,
+				011A319C1C26CC70009B6700 /* HotBoxNotificationExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		011A317F1C26CC70009B6700 /* HotBoxNotificationExample */ = {
+			isa = PBXGroup;
+			children = (
+				011A31801C26CC70009B6700 /* AppDelegate.swift */,
+				011A31821C26CC70009B6700 /* ViewController.swift */,
+				011A31841C26CC70009B6700 /* Main.storyboard */,
+				011A31871C26CC70009B6700 /* Assets.xcassets */,
+				011A31891C26CC70009B6700 /* LaunchScreen.storyboard */,
+				011A318C1C26CC70009B6700 /* Info.plist */,
+			);
+			path = HotBoxNotificationExample;
+			sourceTree = "<group>";
+		};
+		011A31941C26CC70009B6700 /* HotBoxNotificationExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				011A31951C26CC70009B6700 /* HotBoxNotificationExampleTests.swift */,
+				011A31971C26CC70009B6700 /* Info.plist */,
+			);
+			path = HotBoxNotificationExampleTests;
+			sourceTree = "<group>";
+		};
+		011A319F1C26CC70009B6700 /* HotBoxNotificationExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				011A31A01C26CC70009B6700 /* HotBoxNotificationExampleUITests.swift */,
+				011A31A21C26CC70009B6700 /* Info.plist */,
+			);
+			path = HotBoxNotificationExampleUITests;
+			sourceTree = "<group>";
+		};
+		011A31AE1C26CC8C009B6700 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				011A31AF1C26CD25009B6700 /* HotBoxNotification.xcodeproj */,
+				916B78584B530A89D4857AFB /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		011A31B01C26CD25009B6700 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				011A31B51C26CD25009B6700 /* HotBoxNotification.framework */,
+				011A31B71C26CD25009B6700 /* HotBoxNotificationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD9C72EDB46AD24A0C71F8C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B62F3F2FB8CA96E0F08EFB6 /* Pods.debug.xcconfig */,
+				8337ABD073AF7782D7AD34E9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		011A317C1C26CC70009B6700 /* HotBoxNotificationExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 011A31A51C26CC70009B6700 /* Build configuration list for PBXNativeTarget "HotBoxNotificationExample" */;
+			buildPhases = (
+				E9A9B4F65EC224DB1D34488D /* Check Pods Manifest.lock */,
+				011A31791C26CC70009B6700 /* Sources */,
+				011A317A1C26CC70009B6700 /* Frameworks */,
+				011A317B1C26CC70009B6700 /* Resources */,
+				8A4ABAEA719A4EF34A2CC22F /* Embed Pods Frameworks */,
+				FC8AD1B294A7AD08AB14421E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				011A31BC1C26CF91009B6700 /* PBXTargetDependency */,
+			);
+			name = HotBoxNotificationExample;
+			productName = HotBoxNotificationExample;
+			productReference = 011A317D1C26CC70009B6700 /* HotBoxNotificationExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		011A31901C26CC70009B6700 /* HotBoxNotificationExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 011A31A81C26CC70009B6700 /* Build configuration list for PBXNativeTarget "HotBoxNotificationExampleTests" */;
+			buildPhases = (
+				011A318D1C26CC70009B6700 /* Sources */,
+				011A318E1C26CC70009B6700 /* Frameworks */,
+				011A318F1C26CC70009B6700 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				011A31931C26CC70009B6700 /* PBXTargetDependency */,
+			);
+			name = HotBoxNotificationExampleTests;
+			productName = HotBoxNotificationExampleTests;
+			productReference = 011A31911C26CC70009B6700 /* HotBoxNotificationExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		011A319B1C26CC70009B6700 /* HotBoxNotificationExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 011A31AB1C26CC70009B6700 /* Build configuration list for PBXNativeTarget "HotBoxNotificationExampleUITests" */;
+			buildPhases = (
+				011A31981C26CC70009B6700 /* Sources */,
+				011A31991C26CC70009B6700 /* Frameworks */,
+				011A319A1C26CC70009B6700 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				011A319E1C26CC70009B6700 /* PBXTargetDependency */,
+			);
+			name = HotBoxNotificationExampleUITests;
+			productName = HotBoxNotificationExampleUITests;
+			productReference = 011A319C1C26CC70009B6700 /* HotBoxNotificationExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		011A31751C26CC70009B6700 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Nikolay Spassov";
+				TargetAttributes = {
+					011A317C1C26CC70009B6700 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					011A31901C26CC70009B6700 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 011A317C1C26CC70009B6700;
+					};
+					011A319B1C26CC70009B6700 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 011A317C1C26CC70009B6700;
+					};
+				};
+			};
+			buildConfigurationList = 011A31781C26CC70009B6700 /* Build configuration list for PBXProject "HotBoxNotificationExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 011A31741C26CC70009B6700;
+			productRefGroup = 011A317E1C26CC70009B6700 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 011A31B01C26CD25009B6700 /* Products */;
+					ProjectRef = 011A31AF1C26CD25009B6700 /* HotBoxNotification.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				011A317C1C26CC70009B6700 /* HotBoxNotificationExample */,
+				011A31901C26CC70009B6700 /* HotBoxNotificationExampleTests */,
+				011A319B1C26CC70009B6700 /* HotBoxNotificationExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		011A31B51C26CD25009B6700 /* HotBoxNotification.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = HotBoxNotification.framework;
+			remoteRef = 011A31B41C26CD25009B6700 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		011A31B71C26CD25009B6700 /* HotBoxNotificationTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = HotBoxNotificationTests.xctest;
+			remoteRef = 011A31B61C26CD25009B6700 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		011A317B1C26CC70009B6700 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011A318B1C26CC70009B6700 /* LaunchScreen.storyboard in Resources */,
+				011A31881C26CC70009B6700 /* Assets.xcassets in Resources */,
+				011A31861C26CC70009B6700 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011A318F1C26CC70009B6700 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011A319A1C26CC70009B6700 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A4ABAEA719A4EF34A2CC22F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9A9B4F65EC224DB1D34488D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC8AD1B294A7AD08AB14421E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		011A31791C26CC70009B6700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011A31831C26CC70009B6700 /* ViewController.swift in Sources */,
+				011A31811C26CC70009B6700 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011A318D1C26CC70009B6700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011A31961C26CC70009B6700 /* HotBoxNotificationExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011A31981C26CC70009B6700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011A31A11C26CC70009B6700 /* HotBoxNotificationExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		011A31931C26CC70009B6700 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 011A317C1C26CC70009B6700 /* HotBoxNotificationExample */;
+			targetProxy = 011A31921C26CC70009B6700 /* PBXContainerItemProxy */;
+		};
+		011A319E1C26CC70009B6700 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 011A317C1C26CC70009B6700 /* HotBoxNotificationExample */;
+			targetProxy = 011A319D1C26CC70009B6700 /* PBXContainerItemProxy */;
+		};
+		011A31BC1C26CF91009B6700 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HotBoxNotification;
+			targetProxy = 011A31BB1C26CF91009B6700 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		011A31841C26CC70009B6700 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				011A31851C26CC70009B6700 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		011A31891C26CC70009B6700 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				011A318A1C26CC70009B6700 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		011A31A31C26CC70009B6700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		011A31A41C26CC70009B6700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		011A31A61C26CC70009B6700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B62F3F2FB8CA96E0F08EFB6 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = HotBoxNotificationExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.spassov.HotBoxNotificationExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		011A31A71C26CC70009B6700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8337ABD073AF7782D7AD34E9 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = HotBoxNotificationExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.spassov.HotBoxNotificationExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		011A31A91C26CC70009B6700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HotBoxNotificationExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.spassov.HotBoxNotificationExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotBoxNotificationExample.app/HotBoxNotificationExample";
+			};
+			name = Debug;
+		};
+		011A31AA1C26CC70009B6700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HotBoxNotificationExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.spassov.HotBoxNotificationExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotBoxNotificationExample.app/HotBoxNotificationExample";
+			};
+			name = Release;
+		};
+		011A31AC1C26CC70009B6700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HotBoxNotificationExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.spassov.HotBoxNotificationExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HotBoxNotificationExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		011A31AD1C26CC70009B6700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HotBoxNotificationExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.spassov.HotBoxNotificationExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HotBoxNotificationExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		011A31781C26CC70009B6700 /* Build configuration list for PBXProject "HotBoxNotificationExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011A31A31C26CC70009B6700 /* Debug */,
+				011A31A41C26CC70009B6700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		011A31A51C26CC70009B6700 /* Build configuration list for PBXNativeTarget "HotBoxNotificationExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011A31A61C26CC70009B6700 /* Debug */,
+				011A31A71C26CC70009B6700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		011A31A81C26CC70009B6700 /* Build configuration list for PBXNativeTarget "HotBoxNotificationExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011A31A91C26CC70009B6700 /* Debug */,
+				011A31AA1C26CC70009B6700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		011A31AB1C26CC70009B6700 /* Build configuration list for PBXNativeTarget "HotBoxNotificationExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011A31AC1C26CC70009B6700 /* Debug */,
+				011A31AD1C26CC70009B6700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 011A31751C26CC70009B6700 /* Project object */;
+}
