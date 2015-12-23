@@ -1,7 +1,7 @@
 # HotBoxNotification
 Unobtrusive and customizable alerts for your iOS app
 
-![Demo](https://i.imgur.com/steVe1H.gif)
+![Demo](http://i.imgur.com/51F5YNu.gif)
 
 ## Pod
 
