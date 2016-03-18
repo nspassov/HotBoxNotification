@@ -7,15 +7,18 @@ Unobtrusive and customizable alerts for your iOS app
 
 First you define and configure the types of notifications you wish to display:
 
-`HotBox.sharedInstance().settings = [
+```swift
+HotBox.sharedInstance().settings = [
     "failure": [ "backgroundColor": UIColor.redColor(), "image": UIImage(named: "677-emoticon-sad")! ],
     "warning": [ "backgroundColor": UIColor.yellowColor(), "image": UIImage(named: "676-emoticon-suprise")! ],
     "success": [ "backgroundColor": UIColor.greenColor(), "image": UIImage(named: "680-emoticon-shades")! ],
-]`
+]
+```
 
-Then, you can call any of the public methods to display the kind of notification you would like:
+Then you call any of the public methods to display the kind of notification you would like:
 
-`/**
+```swift
+/**
  Notification that remains on screen until dismised via tap.
  */
 public func showStickyMessage(text: NSAttributedString!, ofType type: String!)
@@ -43,11 +46,13 @@ public func showMessage(text: NSAttributedString!, ofType type: String!, withDel
 /**
  Notification that remains on screen for the time of the specified duration or until dismised via tap. The delegate may react on tap event or expiration event.
  */
-public func showMessage(text: NSAttributedString!, ofType type: String!, withDelegate delegate: HotBoxDelegate!, duration timeout: NSTimeInterval)`
+public func showMessage(text: NSAttributedString!, ofType type: String!, withDelegate delegate: HotBoxDelegate!, duration timeout: NSTimeInterval)
+```
 
 A HotBox delegate may implement the following methods:
 
-`func hotBoxHasExpired(type: String!) {
+```swift
+func hotBoxHasExpired(type: String!) {
     print("Dismissed due to timeout")
 }
 
@@ -57,7 +62,8 @@ func hotBoxWasTapped(type: String!) {
 
 func hotBoxButtonWasTapped(type: String!) {
     print("Dismissed via button action")
-}`
+}
+```
 
 ## Pod
 
