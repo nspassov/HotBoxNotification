@@ -44,7 +44,6 @@
         [_window setWindowLevel:UIWindowLevelStatusBar];
         [_window setRootViewController:[self.viewControllers firstObject]];
         [_window setBackgroundColor:[UIColor clearColor]];
-        
         [_window setHidden:NO];
     }
     return _window;

@@ -15,7 +15,7 @@ class ViewController: UIViewController, HotBoxDelegate {
         super.viewDidLoad()
 
         HotBox.sharedInstance().settings = [
-            "error": [ "backgroundColor": UIColor.redColor(), "image": UIImage(named: "677-emoticon-sad")! ],
+            "failure": [ "backgroundColor": UIColor.redColor(), "image": UIImage(named: "677-emoticon-sad")! ],
             "warning": [ "backgroundColor": UIColor.yellowColor(), "image": UIImage(named: "676-emoticon-suprise")! ],
             "success": [ "backgroundColor": UIColor.greenColor(), "image": UIImage(named: "680-emoticon-shades")! ],
         ]
@@ -28,10 +28,10 @@ class ViewController: UIViewController, HotBoxDelegate {
         HotBox.sharedInstance().showMessage(NSAttributedString(string: "This is a warning but it is really long and takes up more than a single line"), ofType: "warning", withDelegate: self)
     }
     @IBAction func errorTapped(sender: AnyObject) {
-        HotBox.sharedInstance().showMessage(NSAttributedString(string: "This is an error"), ofType: "error", withDelegate: self)
+        HotBox.sharedInstance().showMessage(NSAttributedString(string: "This is an error"), ofType: "failure", withDelegate: self)
     }
     @IBAction func errorWithButtonTapped(sender: AnyObject) {
-        HotBox.sharedInstance().showStickyMessage(NSAttributedString(string: "This is an error"), ofType: "error", withDelegate: self, buttonTitle: "Confirm")
+        HotBox.sharedInstance().showStickyMessage(NSAttributedString(string: "This is an error"), ofType: "failure", withDelegate: self, buttonTitle: "Confirm")
     }
     @IBAction func dismissTapped(sender: AnyObject) {
         HotBox.sharedInstance().dismissAll()

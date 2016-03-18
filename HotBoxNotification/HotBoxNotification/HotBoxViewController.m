@@ -167,7 +167,8 @@
     }];
 
     [self.messageLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.centerY.equalTo(self.view.mas_centerY);
+        make.top.equalTo(self.view.mas_top);
+        make.bottom.equalTo(self.view.mas_bottom);
         make.leading.equalTo(self.imageView.mas_trailing).offset(10);
         if(self.buttonTitle.length)
             make.trailing.equalTo(self.actionButton.mas_leading).offset(-15);
