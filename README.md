@@ -57,7 +57,11 @@ func hotBoxHasExpired(type: String!) {
 }
 
 func hotBoxWasTapped(type: String!) {
-    print("Dismissed via tap")
+    print("Notification was tapped")
+}
+
+func hotBoxWasSwiped(type: String!) {
+    print("Dismissed via swipe")
 }
 
 func hotBoxButtonWasTapped(type: String!) {

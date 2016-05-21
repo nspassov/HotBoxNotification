@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "HotBoxNotification"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "Unobtrusive and customizable alerts for your iOS app"
   s.homepage     = "https://github.com/nspassov/HotBoxNotification"
   s.license      = { :type => "MIT", :text => "Copyright (c) 2015 nspassov"}

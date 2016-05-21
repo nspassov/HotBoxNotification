@@ -8,6 +8,7 @@
 @interface HotBoxViewController ()
 
 @property (strong, nonatomic) UITapGestureRecognizer* tapGesture;
+@property (strong, nonatomic) UISwipeGestureRecognizer* swipeGesture;
 @property (weak, nonatomic) HotBox* owner;
 
 @end
@@ -34,10 +35,24 @@
     if([self.delegate respondsToSelector:@selector(hotBoxWasTapped:)]) {
         [self.delegate hotBoxWasTapped:self.notificationType];
     }
+    
+    if(!self.hasButton) {
+        // if box was tapped avoid calling expiration delegate method on dismissal
+        _delegate = nil;
 
-    // if box was tapped avoid calling expiration delegate method on dismissal
+        [self.owner dismiss];
+    }
+}
+
+- (void)swipeGestureActivated:(UISwipeGestureRecognizer *)sender
+{
+    if([self.delegate respondsToSelector:@selector(hotBoxWasSwiped:)]) {
+        [self.delegate hotBoxWasSwiped:self.notificationType];
+    }
+    
+    // avoid calling expiration delegate method on dismissal
     _delegate = nil;
-
+    
     [self.owner dismiss];
 }
 
@@ -80,6 +95,15 @@
         _tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapGestureActivated:)];
     }
     return _tapGesture;
+}
+
+- (UISwipeGestureRecognizer *)swipeGesture
+{
+    if(!_swipeGesture) {
+        _swipeGesture = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeGestureActivated:)];
+        [_swipeGesture setDirection:UISwipeGestureRecognizerDirectionUp];
+    }
+    return _swipeGesture;
 }
 
 - (UILabel *)messageLabel
@@ -139,7 +163,7 @@
 {
     [super viewDidLoad];
 
-    [self.view setGestureRecognizers:@[ self.tapGesture ]];
+    [self.view setGestureRecognizers:@[ self.tapGesture, self.swipeGesture ]];
     [self.view setUserInteractionEnabled:YES];
     
     [self.view addSubview:self.imageView];
